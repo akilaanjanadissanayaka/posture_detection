@@ -10,7 +10,7 @@ ML Kit Pose Detection doesn't require specialized equipment or ML expertise in o
 
 The user's face must be present in order to detect a pose. Pose detection works best when the subject’s entire body is visible in the frame, but it also detects a partial body pose. In that case the landmarks that are not recognized are assigned coordinates outside of the image.
 
-<img src="https://github.com/salkuadrat/learning/raw/master/packages/learning_pose_detection/screenshot.jpg" alt="universe" width="280">
+<img src="https://github.com/akilaanjanadissanayaka/posture_detection/blob/main/1.png" alt="universe" width="280">
 
 ## Getting Started
 
@@ -56,7 +56,7 @@ InputCameraView(
 
 ### Pose Detection
 
-After getting the `InputImage`, we can start detecting user's pose by calling method `detect` from an instance of `PoseDetector`.
+After obtaining the `InputImage`, we can start detecting the user's pose by calling the `detect` method on an instance of `PoseDetector`. It will detect any issues with the hands, backbone, and legs, and if any issues are found, they will be displayed as red lines on the skeleton
 
 ```dart
 PoseDetector detector = PoseDetector();
