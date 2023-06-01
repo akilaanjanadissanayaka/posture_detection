@@ -57,6 +57,7 @@ InputCameraView(
 ### Pose Detection
 
 After obtaining the `InputImage`, we can start detecting the user's pose by calling the `detect` method on an instance of `PoseDetector`. It will detect any issues with the hands, backbone, and legs, and if any issues are found, they will be displayed as red lines on the skeleton
+<img src="https://github.com/akilaanjanadissanayaka/posture_detection/blob/main/2.png" alt="universe" width="280">
 
 ```dart
 PoseDetector detector = PoseDetector();
